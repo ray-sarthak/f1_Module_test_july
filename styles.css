@@ -8,7 +8,7 @@
 nav{
     
     background-color: white;
-    position: sticky;
+    position: sticky !important;
     top:0px;
     padding:10px 30px;
     justify-content: space-between;
@@ -93,11 +93,106 @@ li{
 .my-hero{
     width: 79vw;
 height: 600px;
-display: flex;
+display: inline-block;
 flex-shrink: 1;
     border-radius: 20px;
     background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%); 
     margin-left: 9vw;
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 5vw;
+  
+}
+.hero-left{
+    flex:50%;
+}
+.limited {
+    color: #000;
+font-family: Mada;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    padding-top: 5vw;
+    padding-left: 8vw;
+}
+.look{
+padding-left: 8vw;
+color: #000;
+font-family: Mada;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fashion{
+    
+padding-top: vw;
+padding-left: 7vw;
+flex-shrink: 0;
+    color: #000;
+    font-family: 'Aclonica', sans-serif;
+
+    font-size: 6em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.my-btn{
+    width: 210px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 81, 81, 0.50) 0%, #FF5E3A 100%);
+    border: none;
+    margin-left: 8vw;
+    margin-top: 3vw;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; /* 156.25% */
+     
+
+}
+.right-hero{
+    
+    flex:50%;
+}
+.circle{
+    width: 452.054px;
+height: 429px;
+flex-shrink: 0;
+border-radius: 452.054px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+.imag{
+    
+    background-image: url("./images/Group\ 3\ \(1\).png");
+    
+    right: 0px;
+}
+@media screen {width: max-width:767px ;
+    
+ .my-hero{
+    flex-direction: column;
+ } 
+ .fashion{
+    font-size: 3em;  
+ }  
+ img{
+    max-width: 100%;
+    max-height: 100%;
+ }
+ btn{
+    max-width: 100%;
+    max-height: 100%; 
+ }
+    
 }
 
 
