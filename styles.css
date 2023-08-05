@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+}
+/*Navbar*/
+nav{
+    
+    background-color: white;
+    position: sticky;
+    top:0px;
+    padding:10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 79vw;
+    margin-left: 9vw;
+    margin-top: 3vw;
+    border-radius:2vw;
+
+}
+
+  
+.nav-col-1{
+    display: flex;
+    align-items: center;
+}
+.nav-col-1>p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.logo-text{
+    width: 75px;
+height: 23.846px;
+flex-shrink: 0;
+color: #FF5151;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.nav-col-2>ul{
+    display:flex;
+    align-items: center;
+   margin-left: 16vw;
+    justify-content: center;
+
+}
+@media only screen and (max-width: 767px) {
+    .nav-col-2>ul{
+        display:flex;
+        align-items: center;
+       
+        justify-content: center;
+    
+    }
+  }
+li{
+   margin-left: 2vw;
+   
+   list-style: none;
+}
+
+.home{
+    width: 58px;
+    height: 23.846px;
+    flex-shrink: 0;
+    color: #FF5151;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-col-3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-col-3>div{
+    margin-left: 1vw;
+}
+
+
+
+/* Navbar----End-------*/
+
+/*hero Section*/
+.my-hero{
+    width: 79vw;
+height: 600px;
+display: flex;
+flex-shrink: 1;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%); 
+    margin-left: 9vw;
+}
+
+
