@@ -157,9 +157,21 @@ font-size: 16px;
 font-style: normal;
 font-weight: 900;
 line-height: 25px; /* 156.25% */
+animation: shake 0.5s;
+animation-iteration-count: infinite ;
      
 
 }
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    
+   
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+   
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
 .right-hero{
     
     flex:50%;
@@ -502,9 +514,17 @@ line-height: 30px; /* 166.667% */
  .my-hero{
     flex-direction: column;
  } 
+
+ .html{
+    overflow: hidden;
+    position: fixed;
+ }
  .fashion{
     font-size: 3em;  
+    transition: all 1s ease-in-out;
+   
  }  
+
  img{
     max-width: 100%;
     max-height: 100%;
