@@ -202,7 +202,8 @@ margin-left: 42%;
     
 }
 .collection-text>svg{
-    margin-left: 1%; 
+    margin-top: 0px;
+    margin-bottom: 2vw; 
 }
 .my-button{
 margin-left:28%
@@ -290,6 +291,42 @@ background-image: url("./images/Poster\ 1.png");
     padding-top:9vw;
     padding-left:1vw;
 }
+.grid-3{
+    background-image: url("./images/Poster\ 3.png"); 
+    width: 619px;
+height: 568px;
+flex-shrink: 0;
+}
+.grid-text2{
+    padding-top:21vw;
+    padding-left:5vw;
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px; /* 138.889% */
+}
+.grid-2{
+    background-image: url("./images/Poster\ 2.png");  
+    width: 571px;
+height: 259px;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto auto ;
+    grid-template-rows: 300px 300px;
+}
+.grid2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 138.889% */ 
+    padding-top: 10vw;
+    padding-left:2vw;
+}
 
 
 
@@ -324,10 +361,19 @@ background-image: url("./images/Poster\ 1.png");
     margin-top: 1vw;
     }
     
+.container{
+  display:flex;
+  flex-direction: column;
+    }
+    .item-btn{
+        margin-bottom: 2vw;
+    }
+    
+    
 }
-.item-btn{
-    margin-bottom: 2vw;
-}
+
+
+
 
 
 
