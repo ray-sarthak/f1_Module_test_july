@@ -380,6 +380,10 @@ line-height: normal;
     margin-left: 1vw;
     
 }
+.heart{
+    margin-bottom: 10vw;
+    margin-right: 1vw;
+}
 .card-img-3{
     border-radius: 25px;
 background: linear-gradient(180deg, rgba(252, 203, 144, 0.44) 0%, rgba(255, 154, 158, 0.38) 100%);
@@ -387,6 +391,7 @@ width: 285px;
     height: 324px;
     flex-shrink: 0;
     border-radius: 25px;
+    
 }
 .mybtn{
     border-radius: 10px;
@@ -395,7 +400,92 @@ width: 285px;
 height: 31px;
 flex-shrink: 0;
 border:none;
+margin-top: 1vw;
+margin-bottom: 1vw;
 
+}
+.my-footer{
+    width:100vw;
+height: 483px;
+flex-shrink: 0;
+background: rgba(252, 203, 144, 0.15);
+position: relative;
+bottom: 0px;
+display:flex;
+}
+
+.left-footer{
+    width: 30%;
+    margin-left: 5vw;
+    ;
+}
+
+.logof{
+    width: 75px;
+height: 23.184px;
+flex-shrink: 0;
+color: #FF5E3A;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.flogo{
+    padding-top: 5vw;
+    padding-left: 3vw;
+    margin-bottom: 2vh;
+}
+.ftext{
+    width: 254px;
+height: 62.79px;
+flex-shrink: 0;
+color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+margin-left: 2vw;
+}
+.copyrigts{
+    width: 151px;
+height: 62.79px;
+flex-shrink: 0;
+color: #FF5E3A;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+margin-left: 2vw;
+}
+.socials{
+    margin-left: 1vw;
+}
+.location>img{
+    margin-top: 1vw;
+}
+.footer2{
+    margin-left: 5vw;
+    padding-top: 5vw;
+}
+.footer2>div{
+    margin-bottom: 1vw;
+}
+.fhead{
+  
+flex-shrink: 0;
+color: #0B132A;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 166.667% */
+}
+.contact{
+    padding-top: 1vw;
 }
 
 
@@ -407,9 +497,7 @@ border:none;
 
 
 
-
-
-@media only screen and (max-width: 400px) { ;
+@media only screen and (max-width: 650px) { ;
     
  .my-hero{
     flex-direction: column;
@@ -441,9 +529,40 @@ border:none;
     .item-btn{
         margin-bottom: 2vw;
     }
+    .cardcontainer{
+        justify-content: center;
+    }
     
+    .my-footer{
+        width:130vw;
+    height: 160vh;
+    flex-shrink: 10;
+    background: rgba(252, 203, 144, 0.15);
+    position: relative;
+    bottom: 0px;
+    display:flex;
+    flex-direction: column;
+    } 
+    .my-card2{
+        margin-bottom: 25vw;
+        margin-left: 1vw;
+        
+    }
+
     
+
+
+
+
+
 }
+
+
+
+
+
+
+
 
 
 
